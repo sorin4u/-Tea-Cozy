@@ -1,0 +1,186 @@
+
+@font-face {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica'), url('Helvetica.ttff') format('ttff');
+    }
+    body {
+
+        font-family: 'Helvetica'; 
+        font-size: 22px;
+        color: seashell;
+        background-color: rgb(10, 10, 10);
+        opacity: 0.9;
+    }
+
+
+
+    /*------------------------------------header----------------*/
+
+    header{
+    width: 100%;
+    border-bottom:1px solid seashell;
+  
+      
+    }
+     #logo{
+        height: 50px;
+        margin-left: 10px;
+     }
+
+     header p{
+        text-decoration: underline;
+        display: inline;
+        float:right;
+        margin: 10px;
+    }
+
+    a:link {
+        color: rgb(255, 255, 255);
+      }
+      
+      /* visited link */
+      a:visited {
+        color: rgb(255, 255, 255);
+      }
+      
+      /* mouse over link */
+      a:hover {
+        color: rgb(54, 173, 84);
+      }
+      
+      /* selected link */
+      a:active {
+        color: rgb(76, 76, 163);}
+
+          /*------------------------------------Main---Mission-------------*/
+main{
+    width:100%;
+    height:auto;
+    margin: 0 auto;
+}          
+
+.mission{
+  width:1200px;
+  height:700px;
+  margin-bottom: 75px
+}
+
+ #img_mission{
+position: relative;
+  width:1200px;
+  height:700px;
+  padding: 0px 0px 0px 40px;
+}
+.cont_ins{ 
+    width:100%;
+    height:150px;
+    text-align: center;
+    position: absolute;
+    top: 350px;
+    background-color: rgb(10, 10, 10);
+}
+ /*------------------------------------Main---Tea of the Month-------------*/
+ #tea_of_month{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+ }
+ .cont_tea{
+    width: 300px;
+    height:260px;
+    margin: 0px 10px 0px 10px;
+ }
+ .month{
+    width:100%;
+    height:150px;
+    text-align: center;
+    background-color: rgb(10, 10, 10);
+}
+.img_tea{
+  width: 300px;
+  height: 200px;
+}
+.cont_tea h4{
+margin-top: 10px;
+}
+
+ /*---------------------------------------Location-------------*/
+.cont_location{
+  width: 1200px;
+  height: 500px;
+  margin-top: 70px;
+  position: relative;
+}
+
+ #img_location{
+  width:1200px;
+  height:500px;
+  padding: 0px 0px 0px 40px;
+ }
+
+ .cont_title_location{
+    
+  width:100%;
+  height:100px;
+  text-align: center;
+  position:absolute;
+  bottom: 400px;
+  margin-bottom: 15px;
+}
+.cont_ins_location_1{
+  width:300px;
+  height:200px;
+  position:absolute;
+  bottom:220px;
+  left: 180px;
+  background-color: rgb(10, 10, 10);
+
+}
+
+.cont_ins_location_2{
+  width:300px;
+  height:200px;
+  position:absolute;
+  bottom:220px;
+  left: 490px;
+  background-color: rgb(10, 10, 10);
+ 
+}
+
+.cont_ins_location_3{
+  width:300px;
+  height:200px;
+  position:absolute;
+  bottom:220px;
+  left: 800px;
+  background-color: rgb(10, 10, 10);
+}
+
+ h3,h4{
+  margin: 0 auto;
+  display: block;
+text-align: center;
+margin: 15px 0px 15px 0px;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++footer+++++++++++++++++++++++++++++++==*/
+
+.cont_ins_footer{
+  width:100%;
+  height:200px;
+  text-align: center;
+  position:relative;
+  bottom:100px;
+  background-color: rgb(10, 10, 10);
+  padding-top: 10px; 
+}
+footer h5{
+padding-left: 20px;
+
+}
